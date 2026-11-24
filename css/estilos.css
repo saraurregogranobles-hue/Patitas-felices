@@ -15,7 +15,7 @@ body {
 
 /* ENCABEZADO */
 header {
-    background-color: #da5bb4;
+    background-color: #df65bb;
     color: white;
     text-align: center;
     padding: 30px 20px;
@@ -143,5 +143,33 @@ footer {
 .boton:hover {
     background-color: #75458a;
 }
+
+/* DESCRIPCION DE ANIMALES */
+.descripcion {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #666;
+}
+
+/* ICONOS DE MASCOTAS */
+.icono-mascota {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+/* TARJETAS DE ANIMALES */
+.tarjeta {
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(117, 69, 138, 0.10);
+}
+
+.tarjeta:hover {
+    transform: translateY(-8px);
+}
+
+.tarjeta p {
+    color: #666;
+}
+
 
 }
